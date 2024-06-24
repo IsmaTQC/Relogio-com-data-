@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #7fac1f);
+    color: rgb(55, 39, 112);
+}
+
+.relogio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    background-color:transparent;
+    color: black;
+    padding: 10px;
+    font-size: 5em;
+    border: 1px solid rgb(71, 68, 68);
+    box-shadow: 10px 2px 50px 40px rgb(30, 30, 41);
+    border-radius: 50px;
+    margin-top: 80px;
+    transition: 2.5s;
+}
+
+.relogio:hover {
+    transform: scale(1.2);
+    transition: 2.5s;
+    cursor: pointer;
+    box-shadow: 10px 2px 40px 40px gray;
+    color: rgb(13, 179, 21);
+    background: rgb(5, 5, 15);
+}
